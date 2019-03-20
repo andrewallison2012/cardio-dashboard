@@ -21,6 +21,17 @@ df2 = pd.read_csv(
     'c353e8ef842413cae56ae3920b8fd78468aa4cb2/'
     'usa-agricultural-exports-2011.csv')
 
+markdown_text = '''
+### How Does Location Effect Life Expectancy?
+
+Dash apps can be written in Markdown.
+Dash uses the [CommonMark](http://commonmark.org/)
+specification of Markdown.
+Check out their [60 Second Markdown Tutorial](http://commonmark.org/help/)
+if this is your first introduction to Markdown!
+'''
+
+
 
 def generate_table(dataframe, max_rows=10):
     return html.Table(
@@ -34,6 +45,7 @@ def generate_table(dataframe, max_rows=10):
     )
 
 app.layout = html.Div(children=[
+    dcc.Markdown(children=markdown_text),
     dcc.Graph(
         id='life-exp-vs-gdp',
         figure={
