@@ -140,7 +140,7 @@ progressbar==2.5
 prompt-toolkit==1.0.15
 psutil==5.4.5
 ptyprocess==0.5.2
-py==1.5.3
+py==1.10.0
 pyaml==17.12.1
 pyasn1==0.4.4
 pyasn1-modules==0.2.2
