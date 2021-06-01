@@ -213,7 +213,7 @@ Twisted==18.9.0
 typing==3.6.4
 unicodecsv==0.14.1
 uritemplate==3.0.0
-urllib3==1.22
+urllib3==1.26.5
 validate-email==1.3
 virtualenv==16.1.0
 w3lib==1.19.0
